@@ -1,0 +1,44 @@
+*{
+ padding: 0; 
+ margin: 0;
+}
+.controles{
+width:100vw;
+height: 30vh;
+  
+}
+.controle{
+border: 3px solid #351df1;
+padding: 10px;
+background-color: #000000;
+}
+label,input,button{
+color:white;
+border-radius: 0px;
+}
+.ddd{
+padding: 20px;
+}
+.bola{
+position: absolute;
+border-radius:100px;
+}
+.palco{
+  display: flex;
+height:70vh;
+  min-width: 100%;
+  min-height: fill;
+  position: absolute;
+  overflow: hidden;
+  background: #bfbfe0;
+
+}
+button{
+color:black;
+}
+input{
+color:black;
+}
+p{
+color:white;
+}
