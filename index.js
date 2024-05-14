@@ -2,26 +2,7 @@
 
 
   
-  })
-  this.eu.remove()
-  numbolas--
-  num_objetos.innerHTML=numbolas
-}
-desenhar(){
-  const div=document.createElement("div")
-  div.setAttribute("id",this.id)
-  div.setAttribute("class","bola")
-  div.setAttribute("style",`left:${this.pX}px;top:${this.pY}px;width:${this.tam}px;height:${this.tam}px;background-color:rgb(${this.r},${this.g},${this.b})`)
-  this.palco.appendChild(div)
-}
-colisao(){
-  if(this.pX+this.tam >= larguraPalco){
-    this.dirX=-1
-    
-  }else if(this.pX <= 0){
-  this.dirX=1}
-  
-  if(this.pY+this.tam >= alturaPalcoPalco){
+
     this.dirY=-1
     
   }else if(this.pY <= 0){
