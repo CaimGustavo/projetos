@@ -3,27 +3,7 @@
 
   
 
-    this.dirY=-1
-    
-  }else if(this.pY <= 0){
-  this.dirY=1}
-}
-controlar(){
-this.colisao
-this.pX+=this.dirX*this.velX
-this.pY+=this.dirX*this.velY
-this.eu.setAttribute("style",`left:${this.pX}px;top:${this.pY}px;width:${this.tam}px;height:${this.tam}px;background-color:rgb(${this.r},${this.g},${this.b})`)
-if((this.pX > larguraPalco)||(this.pY > alturaPalco)){
-  this.remover()
-  
-}
-
-}
-}
-
-
-
-window.addEventListener("resize",(evt)=>{
+    vt)=>{
  larguraPalco=palco.offsetWidth
  alturaPalco=palco.offsetHeight
   
