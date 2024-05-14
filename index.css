@@ -61,10 +61,22 @@ background-color: black;
 color:white;  
 }
 .line{
-width: 20px;
-height:1px;
-padding: 4px;
+width: 10px;
+height:2px;
+padding: 12px;
 color:white;
 background-color: white;
   
 }
+.line2{
+width: 10px;
+height:2px;
+padding: 12px;
+color:white;
+background-color: white;}
+.line3{
+width: 10px;
+height:2px;
+padding: 12px;
+color:white;
+background-color: white;}
