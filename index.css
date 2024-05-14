@@ -7,3 +7,18 @@
  box-sizing:border-box;
  border: none;
 }
+header{
+height: 20vh; 
+background-color: black; 
+white
+}
+main{
+height: 75vh;
+background-color: white;
+color:black;
+}
+footer{
+height: 5vh;
+background-color: black;
+color:white;
+}
