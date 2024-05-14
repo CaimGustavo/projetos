@@ -35,9 +35,8 @@ margin:3px;
 strong{
 color:green;
 }
-img{
+.logo{
 width:220px;
-  
 }
 input,button{
 width: 100vw;
