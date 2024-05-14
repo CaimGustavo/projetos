@@ -17,6 +17,7 @@ height: 75vh;
 background-color: white;
 color:black;
 text-align: justify;
+font:normal normal 1em arial, sans-sarif;
 }
 footer{
 margin-top:600px;
@@ -24,7 +25,7 @@ height: 5vh;
 background-color: black;
 color:white;
 text-align: center;
-font:normal bolder 1em arial sans-sarif;
+font:normal bolder 1em arial, sans-sarif;
 }
 p,h1,h2,h3{
 padding:5px; 
@@ -44,4 +45,8 @@ height:4vh ;
 border: 3px solid black;
 border-radius: 5px;
 margin-top:10px;
+}
+.redes{
+width: 50px;
+  
 }
