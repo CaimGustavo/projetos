@@ -35,8 +35,11 @@ margin:3px;
 strong{
 color:green;
 }
-.logo{
+#logo{
 width:220px;
+}
+#menu{
+width: 100px;  
 }
 input,button{
 width: 100vw;
