@@ -45,7 +45,8 @@ height:4vh ;
 border: 3px solid black;
 border-radius: 5px;
 margin-top:10px;
-transform: translate all 3s;
+transform:  all 3s;
+transition: all 3s;
 }
 .redes{
   margin-top: 20px;
