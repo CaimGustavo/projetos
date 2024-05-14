@@ -18,13 +18,13 @@ background-color: white;
 color:black;
 }
 footer{
-height: 0vh;
+height: 5vh;
 background-color: black;
 color:white;
 }
 p,h1,h2,h3{
 padding:5px; 
-margin:5px;
+margin:3px;
   
 }
 strong{
