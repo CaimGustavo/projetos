@@ -1,25 +1,6 @@
 
-const palco = document.querySelector(".palco")
-
-const num_objetos = document.querySelector("#num_objetos")
-const txt_qtde = document.querySelector("#txt_qtde")
-const btn_add = document.querySelector("#btn_add")
-const btn_remover = document.querySelector("#btn_remover")
-
-let larguraPalco=palco.offsetWidth
-let alturaPalco=palco.offsetHeight
-let bolas=[]
-let numbolas=0
 
 
-class Bola{
-constructor(arrayBolas,palco){
-  this.tam=Math.floor(Math.random()*15)+10
-  this.r=Math.floor(Math.random()*255)
-  this.g=Math.floor(Math.random()*255)
-  this.b=Math.floor(Math.random()*255)
-  this.pX=Math.floor(Math.random()*(larguraPalco-this.tam))
-  this.pY=Math.floor(Math.random()*(alturaPalco-this.tam))
   this.velX=Math.floor(Math.random()*2)+0.5
   this.velY=Math.floor(Math.random()*2)+0.5
   this.dirX=(Math.random()*10)>5?1:-1
