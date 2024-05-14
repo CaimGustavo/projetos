@@ -16,12 +16,14 @@ main{
 height: 75vh;
 background-color: white;
 color:black;
+text-align: justify;
 }
 footer{
 margin-top:280px;
 height: 5vh;
 background-color: black;
 color:white;
+text-align: center;
 }
 p,h1,h2,h3{
 padding:5px; 
