@@ -1,28 +1,7 @@
 
 
 
-  this.velX=Math.floor(Math.random()*2)+0.5
-  this.velY=Math.floor(Math.random()*2)+0.5
-  this.dirX=(Math.random()*10)>5?1:-1
-  this.dirY=(Math.random()*10)>5?1:-1
-  this.palco=palco
-  this.arrayBolas=arrayBolas
-  this.id=Date.now()+"_"+Math.floor(Math. random()*1000000000)
-  this.desenhar()
-  this.controle=setInterval(this.controlar,10)
-  this.eu=document.getElementById(this.id)
-  numbolas++
-  num_objetos.innerHTMl=numbolas
-}
-minhaPos(){
-  return this.arrayBolas.indexOf(this)
   
-}
-remover(){
-  clearInterval(this.controle)
-  bolas=bolas.filter((b)=>{
-    if(b.id!=this.id)
-    return b
   })
   this.eu.remove()
   numbolas--
