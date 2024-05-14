@@ -22,4 +22,7 @@ height: 5vh;
 background-color: black;
 color:white;
 }
-p,h1
+p,h1,h2{
+padding:; 
+  
+}
