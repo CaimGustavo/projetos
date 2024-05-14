@@ -37,7 +37,7 @@ img{
 width:220px;
   
 }
-input{
+input,button{
 width: 100vw;
 height:4vh ;
 border: 3px solid black;
