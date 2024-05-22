@@ -51,7 +51,7 @@ placeholder="NUMERO EXEMPLO 43 0000000" required><br>
  const btn=document.querySelector("#enviar")
  console.log(window)
 let banco_de_dados=[]
-btn.addEventListener("submit",(evt)=>{
+btn.addEventListener("click",(evt)=>{
 evt.preventDefault()
 const nome=document.querySelector("#nome").value
 const tel=document.querySelector("#telefone").value
