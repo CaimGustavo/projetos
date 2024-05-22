@@ -1,5 +1,6 @@
 const btn=document.querySelector("#enviar")
 let banco_de_dados=[]
+console.log(his)
 const html = document.querySelectorAll(".html")
 
 const myObserve=new IntersectionObserver((ent)=>{
