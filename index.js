@@ -16,6 +16,7 @@ entrey.target.classList.remove("html")
   
 })
 html.forEach((element)=> myObserve.observe(element))
+/*
 btn.addEventListener("click",(evt)=>{
 evt.preventDefault()
 const nome=document.querySelector("#nome").value
