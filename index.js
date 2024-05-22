@@ -15,7 +15,7 @@ entrey.target.classList.remove("html")
   
 })
 html.forEach((element)=> myObserve.observe(element))
-btn.addEventListener("submit",(evt)=>{
+btn.addEventListener("click",(evt)=>{
 evt.preventDefault()
 const nome=document.querySelector("#nome").value
 const tel=document.querySelector("#telefone").value
