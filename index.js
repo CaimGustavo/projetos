@@ -1,5 +1,19 @@
 const btn=document.querySelector("#enviar")
 let banco_de_dados=[]
+const html = document.querySelectorAll(".html")
+
+const myObserve=new IntersectionObserver((ent)=>{
+ent.forEach((entrey)=>{
+if(entrey.isIntersecting){
+  entrey.target.classList.add("visil")
+}else{
+entrey.target.classList.remove("html")
+}
+  
+})
+  
+})
+html.forEach((element)=> myObserve.observe(element))
 btn.addEventListener("submit",(evt)=>{
 evt.preventDefault()
 const nome=document.querySelector("#nome").value
