@@ -46,6 +46,20 @@ placeholder="NUMERO EXEMPLO 43 0000000" required><br>
 <p>©feito por Gustavo para o agrinho 2024</p>
 </footer>
 
-<script src="index.js"></script>
+<script>
+ const btn=document.querySelector("#enviar")
+let banco_de_dados=[]
+btn.addEventListener("submit",(evt)=>{
+evt.preventDefault()
+const nome=document.querySelector("#nome").value
+const tel=document.querySelector("#telefone").value
+const CPF=document.querySelector("#CPF").value
+banco_de_dados.push(nome,tel,CPF)
+console.log(banco_de_dados)
+}) 
+  
+  
+  
+</script>
   </body>
 </html>
