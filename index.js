@@ -1,4 +1,5 @@
 const btn =document.querySelector(".enviar")
+console.log(btn)
 let banco_de_dados=[]
 console.log(window)
 const html = document.querySelectorAll(".html")
