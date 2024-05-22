@@ -25,4 +25,4 @@ const CPF=document.querySelector("#CPF").value
 banco_de_dados.push(nome,tel,CPF)
 localStorage.setItem("dados",banco_de_dados)
 console.log(banco_de_dados)
-})
+})*/
