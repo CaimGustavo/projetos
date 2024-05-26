@@ -79,4 +79,6 @@ transform:  translateX(-100%);
 }
 .menu{
 display: none;
+text-decoration: none;
+list-style: none;
 }
