@@ -86,7 +86,7 @@ transform:  translateX(-100%);
   transform: translateX(0);
 }
 .nav-list{
-display: none;
+display: block;
 text-decoration: none;
 list-style: none;
 position: absolute;
@@ -96,6 +96,7 @@ width:50vh;
 height: 92vh;
 background: black;
 flex-direction: column;
+align-items: center;
 }
 a{
 color:white;  
