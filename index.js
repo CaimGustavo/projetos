@@ -26,6 +26,6 @@ localStorage.setItem("dados",banco_de_dados)
 console.log(banco_de_dados)
 })
 logo.addEventListener("click",(evt)=>{
-window.location.href="index.html"
+window.location.href="Index.html"
 console.log("teste")
 } )
