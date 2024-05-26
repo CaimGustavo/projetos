@@ -82,3 +82,12 @@ display: none;
 text-decoration: none;
 list-style: none;
 }
+a{
+color:white;  
+transition: all 0.3s;
+  
+}
+a:hover{
+opacity: 0.7;  
+  
+}
