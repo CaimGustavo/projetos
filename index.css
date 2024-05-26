@@ -60,7 +60,7 @@ margin:10px;
 }
 #redes{
 margin-left:40px ; 
- 
+transition: all 0.5s;
   
 }
 .redes:hover{
