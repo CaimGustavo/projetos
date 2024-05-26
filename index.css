@@ -91,6 +91,7 @@ text-decoration: none;
 list-style: none;
 position: absolute;
 top:8vh;
+right: 0;
 }
 a{
 color:white;  
