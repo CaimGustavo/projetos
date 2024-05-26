@@ -27,4 +27,5 @@ console.log(banco_de_dados)
 })
 logo.addEventListener("click",(evt)=>{
 window.location.href="index.html"
+console.log("teste")
 } )
