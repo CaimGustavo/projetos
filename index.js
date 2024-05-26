@@ -1,9 +1,8 @@
 
-console.log(btn)
 let banco_de_dados=[]
 console.log(window)
 const html = document.querySelectorAll(".html")
-
+const logo=document.querySelector("#logo")
 const myObserve=new IntersectionObserver((ent)=>{
 ent.forEach((entrey)=>{
 if(entrey.isIntersecting){
@@ -26,6 +25,6 @@ banco_de_dados.push(nome,tel,CPF)
 localStorage.setItem("dados",banco_de_dados)
 console.log(banco_de_dados)
 })
-addEventListener("click",(evt)=>{
+logo.addEventListener("click",(evt)=>{
 window.location.href="index.html"
 } )
