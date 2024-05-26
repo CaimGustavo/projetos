@@ -61,7 +61,7 @@ margin:10px;
 #redes{
 margin-left:40px ; 
 transition: all 0.5s;
-  
+border-radius: 30%;  
 }
 .redes:hover{
 border: 3px solid black;
