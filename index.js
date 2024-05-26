@@ -26,3 +26,6 @@ banco_de_dados.push(nome,tel,CPF)
 localStorage.setItem("dados",banco_de_dados)
 console.log(banco_de_dados)
 })
+addEventListener("click",(evt)=>{
+window.location.href="index.html"
+} )
