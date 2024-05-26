@@ -59,8 +59,13 @@ width: 50px;
 margin:10px;  
 }
 #redes{
- margin-left:40px ; 
+margin-left:40px ; 
+ 
   
+}
+.redes:hover{
+box-shadow: 2px 2px 2px black;
+margin-bottom: 10px;
 }
 #enviar:hover{
 background-color: black;
