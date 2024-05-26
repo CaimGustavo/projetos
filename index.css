@@ -26,7 +26,7 @@ color:white;
 text-align: center;
 font:normal bolder 1em arial, sans-sarif;
 }
-p,h1,h2,h3{
+li,h1,h2,h3{
 padding:5px; 
 margin:3px;
 }
