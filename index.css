@@ -92,6 +92,10 @@ list-style: none;
 position: absolute;
 top:8vh;
 right: 0;
+width:50vh;
+height: 92vh;
+background: black;
+flex-direction: column;
 }
 a{
 color:white;  
