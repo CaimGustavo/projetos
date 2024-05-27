@@ -1,3 +1,4 @@
+const api="https://replit.com/@gustavomelechen/Apipromisse-1#index.js"
 
 let banco_de_dados=[]
 console.log(window)
