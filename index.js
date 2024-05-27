@@ -1,5 +1,5 @@
 const api="https://replit.com/@gustavomelechen/Apipromisse-1#index.js"
- let res =fetch(api)
+ fetch(api)
 .then(res=>console.log(res))
 let banco_de_dados=[]
 console.log(window)
