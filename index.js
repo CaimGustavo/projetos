@@ -1,8 +1,9 @@
 const api="https://replit.com/@gustavomelechen/Apipromisse-1?v=1"
  fetch(api)
 .then(res=>res.text())
+console.log(res)
 let banco_de_dados=[]
-console.log(window)
+
 const html = document.querySelectorAll(".html")
 const logo=document.querySelector("#logo")
 const myObserve=new IntersectionObserver((ent)=>{
