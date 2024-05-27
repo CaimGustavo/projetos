@@ -1,7 +1,6 @@
 const api="https://replit.com/@gustavomelechen/Apipromisse-1?v=1"
  fetch(api)
-.then(res=>res.text())
-console.log(res)
+.then(res=>res.json())
 let banco_de_dados=[]
 
 const html = document.querySelectorAll(".html")
