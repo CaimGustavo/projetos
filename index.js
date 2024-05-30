@@ -41,9 +41,17 @@ class MobileNavbar{
 addClickEvent(){
 this.mobileMenu.addEventListener("click", ()=> console.log("hey hey"));}
 init(){
-  if(this.mobileMenu)
+  if(this.mobileMenu){
   this.addClickEvent()
+    
+  }
+  return this
 }
  
   
 }
+const MobileNavbar= new MobileNavbar(
+".mobile-menu",
+".nav-list",
+"nav-list li"
+  )
