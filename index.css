@@ -105,7 +105,7 @@ transition: transform 0.3s ease-in;
   
 }
 .nav-list li{
-animation: navLinkFade .5 ease-in;
+margin-left:0;
 }
 .nav-list.active{
  transform: translateX(0); 
