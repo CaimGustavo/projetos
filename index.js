@@ -36,5 +36,12 @@ class MobileNavbar{
   this.mobileMenu=document.querySelector(mobileMenu)
   this.navList=document.querySelector(navList)
   this.navlinks=document.querySelectorAll(navlinks)
+  this.active="active"
   }
+this.mobileMenu.addEventListener("click", (evt)=>{
+  
+  
+  
+})  
+  
 }
