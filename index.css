@@ -23,7 +23,7 @@ color:black;
 font:normal normal 1em arial, sans-sarif;
 }
 footer{
-margin-top:500px;
+margin-top:0;
 height: 5vh;
 background-color: black;
 color:white;
@@ -106,6 +106,7 @@ transition: transform 0.3s ease-in;
 }
 .nav-list li{
 margin-left:0;
+animation: navLinkFade 0.5s ease forwards 0.3s;
 }
 .nav-list.active{
  transform: translateX(0); 
