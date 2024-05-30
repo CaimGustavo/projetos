@@ -34,10 +34,10 @@ logo.addEventListener("click",(evt)=>{
 window.location.href="Index.html"})
 
 face.addEventListener("click",(evt)=>{
-window.location.href="Index.html"})
+window.location.href="https://www.facebook.com/gustavo.donascimento.5667?mibextid=ZbWKwL"})
 
 insta.addEventListener("click",(evt)=>{
-window.location.href="https://www.instagram.com/accounts/edit/"})
+window.location.href="https://www.instagram.com/gustavo_nascimento_melechenco/"})
 
 x.addEventListener("click",(evt)=>{
 window.location.href="Index.html"})
