@@ -132,8 +132,8 @@ margin:8px;
 }
 @keyframes navLinkFade{
  from{
- opacity: 0;  
- transform: translateX(50px);
+opacity: 0;  
+transform: translateX(50px);
  }
 to{
 opacity: 1;
