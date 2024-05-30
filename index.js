@@ -43,7 +43,7 @@ this.mobileMenu.addEventListener("click", ()=> console.log("hey hey"));}
 init(){
   if(this.mobileMenu){
   this.addClickEvent()
-    
+    console.log("hey")
   }
   return this
 }
