@@ -109,6 +109,10 @@ justify-content:space-around;
 margin-left:0;
 opacity: 0;  
 }
+.nav-list.active{
+ transform: translateX(0); 
+  
+}
 a{
 color:white;  
 transition: all 0.3s;
