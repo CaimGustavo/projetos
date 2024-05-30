@@ -130,7 +130,7 @@ height: 2px;
 background-color: white;
 margin:8px;
 }
-@keyframes navLinkfade{
+@keyframes navLinkFade{
  from{
  opacity: 0;  
  transform: translateX(50px);
