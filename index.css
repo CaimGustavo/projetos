@@ -19,6 +19,7 @@ display: flex;
 justify-content: space-around;
 }
 main{
+overflow-x: hidden;
 height: 75vh;
 background-color: white;
 color:black;
@@ -112,7 +113,6 @@ opacity: 0;
 }
 .nav-list.active{
  transform: translateX(0); 
-  display:block;
 }
 a{
 color:white;  
