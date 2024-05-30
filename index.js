@@ -36,10 +36,15 @@ class MobileNavbar{
   this.mobileMenu=document.querySelector(mobileMenu)
   this.navList=document.querySelector(navList)
   this.navlinks=document.querySelectorAll(navlinks)
-  this.active="active"
+  this.activeClass="active"
   }
+Click(){
+this.navList.classList.toggle(this.activeClass)  
+  
+}
 addClickEvent(){
-this.mobileMenu.addEventListener("click", ()=> console.log("hey hey"));}
+this.mobileMenu.addEventListener("click", this.Click)
+}
 init(){
   if(this.mobileMenu){
   this.addClickEvent()
