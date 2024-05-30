@@ -37,6 +37,7 @@ class MobileNavbar{
   this.navList=document.querySelector(navList)
   this.navlinks=document.querySelectorAll(navlinks)
   this.activeClass="active"
+  this.Click=this.Click.bind()
   }
 Click(){
 this.navList.classList.toggle(this.activeClass)  
