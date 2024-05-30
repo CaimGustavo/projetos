@@ -107,6 +107,7 @@ transition: transform 0.3s ease-in;
 .nav-list li{
 margin-left:0;
 margin-top:10vh;
+text-align:center ;
 }
 .nav-list.active{
  transform: translateX(0); 
