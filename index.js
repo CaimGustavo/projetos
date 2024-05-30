@@ -31,3 +31,10 @@ logo.addEventListener("click",(evt)=>{
 window.location.href="Index.html"
 console.log("teste")
 } )
+class MobileNavbar{
+  constructor(mobileMenu,navList,navlinks){
+  this.mobileMenu=document.querySelector(mobileMenu)
+  this.navList=document.querySelector(navList)
+  this.navlinks=document.querySelectorAll(navlinks)
+  }
+}
