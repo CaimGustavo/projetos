@@ -55,4 +55,4 @@ const mobileNavbar= new MobileNavbar(
 ".nav-list",
 "nav-list li",
   )
-MobileNavbar.init()
+mobileNavbar.init()
