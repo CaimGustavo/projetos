@@ -37,13 +37,13 @@ face.addEventListener("click",(evt)=>{
 window.location.href="Index.html"})
 
 insta.addEventListener("click",(evt)=>{
-window.location.href="Index.html"})
+window.location.href="https://www.instagram.com/accounts/edit/"})
 
 x.addEventListener("click",(evt)=>{
 window.location.href="Index.html"})
 
 yt.addEventListener("click",(evt)=>{
-window.location.href="Index.html"})
+window.location.href="https://youtube.com/@caimbiotech?si=MPE6yf1qBfVWom64"})
 
 class MobileNavbar{
   constructor(mobileMenu,navList,navlinks){
