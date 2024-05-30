@@ -2,7 +2,10 @@ const api="https://replit.com/@gustavomelechen/Apipromisse-1?v=1"
  fetch(api)
 .then(res=>res.json())
 let banco_de_dados=[]
-
+const face=document.querySelector("#face")
+const insta=document.querySelector("#insta")
+const x=document.querySelector("#x")
+const yt=document.querySelector("#yt")
 const html = document.querySelectorAll(".html")
 const logo=document.querySelector("#logo")
 const myObserve=new IntersectionObserver((ent)=>{
@@ -28,9 +31,20 @@ localStorage.setItem("dados",banco_de_dados)
 console.log(banco_de_dados)
 })*/
 logo.addEventListener("click",(evt)=>{
-window.location.href="Index.html"
-console.log("teste")
-} )
+window.location.href="Index.html"})
+
+face.addEventListener("click",(evt)=>{
+window.location.href="Index.html"})
+
+insta.addEventListener("click",(evt)=>{
+window.location.href="Index.html"})
+
+x.addEventListener("click",(evt)=>{
+window.location.href="Index.html"})
+
+yt.addEventListener("click",(evt)=>{
+window.location.href="Index.html"})
+
 class MobileNavbar{
   constructor(mobileMenu,navList,navlinks){
   this.mobileMenu=document.querySelector(mobileMenu)
