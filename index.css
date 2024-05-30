@@ -91,7 +91,7 @@ transform:  translateX(-100%);
 }
 .nav-list{
 transform: translateX(100%);
-display: block;
+display: none;
 text-decoration: none;
 list-style: none;
 position: absolute;
@@ -112,7 +112,7 @@ opacity: 0;
 }
 .nav-list.active{
  transform: translateX(0); 
-  
+  display:block;
 }
 a{
 color:white;  
