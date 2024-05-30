@@ -7,12 +7,16 @@
  box-sizing:border-box;
  border: none;
 }
+body{
+ overflow-x: hidden; 
+  
+}
 header{
 height: 20vh; 
 background-color: black; 
 color:white;
 display: flex;
-justify-content: space;
+justify-content: space-around;
 }
 main{
 height: 75vh;
