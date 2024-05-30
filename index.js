@@ -42,9 +42,7 @@ class MobileNavbar{
 animateLinks(){
   console.log(window)
 this.navlinks.forEach((link)=>{
-  link.style.animation
-    ? (link.style.animation = "")
-    :(link.style.animation =`navLinkFade 0.5s ease forwards 0.3s;`);
+  link.style.animation?(link.style.animation = ""):(link.style.animation =`navLinkFade 0.5s ease forwards 0.3s;`)
 
 })  
 }
