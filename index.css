@@ -89,7 +89,7 @@ transform:  translateX(-100%);
 }
 .nav-list{
 transform: translateX(100%);
-display: none;
+display: block;
 text-decoration: none;
 list-style: none;
 position: absolute;
