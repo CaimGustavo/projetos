@@ -50,7 +50,7 @@ init(){
  
   
 }
-const MobileNavbar= new MobileNavbar(
+const mobileNavbar= new MobileNavbar(
 ".mobile-menu",
 ".nav-list",
 "nav-list li",
