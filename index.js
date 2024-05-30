@@ -38,10 +38,12 @@ class MobileNavbar{
   this.navlinks=document.querySelectorAll(navlinks)
   this.active="active"
   }
-this.mobileMenu.addEventListener("click", (evt)=>{
-  
-  
-  
-})  
+addClickEvent(){
+this.mobileMenu.addEventListener("click", ()=> console.log("hey hey"));}
+init(){
+  if(this.mobileMenu)
+  this.addClickEvent()
+}
+ 
   
 }
