@@ -40,7 +40,7 @@ class MobileNavbar{
   this.Click=this.Click.bind(this)
   }
 animateLinks(){
-this.navlinks=forEach((link)=>{
+this.navlinks.forEach((link)=>{
   link.style.animation
     ? (link.style.animation = "")
     :(link.style.animation =`navLinkFade 0.5s ease forwards 0.3s`)
