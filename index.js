@@ -1,4 +1,4 @@
-const api="https://replit.com/@gustavomelechen/Apipromisse-1?v=1"
+const api="https://replit.com/@gustavomelechen/Apipromisse-1"
  fetch(api)
 .then(res=>res.json())
 .then(dados=>{
