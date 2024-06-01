@@ -5,6 +5,7 @@ const api="https://replit.com/@gustavomelechen/Apipromisse-1"
 console.log(dados)  
   
 })
+console.log(dados.temp)
 let banco_de_dados=[]
 const face=document.querySelector("#face")
 const insta=document.querySelector("#insta")
