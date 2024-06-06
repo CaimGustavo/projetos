@@ -87,9 +87,9 @@ const mobileNavbar= new MobileNavbar(
 ".nav-list li",
   )
 mobileNavbar.init()
-for (let s= 0;s<100000000 ; s++);
 
-const inter=setInterval(function() {
+
+
 
 const ctx = document.getElementById('myChart')
 new Chart(ctx, { 
@@ -107,6 +107,5 @@ new Chart(ctx, {
     y: { 
     beginAtZero: true } } } });  
   
-}, 10);
 
 
