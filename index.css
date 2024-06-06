@@ -26,7 +26,9 @@ color:black;
 font:normal normal 1em arial, sans-sarif;
 }
 footer{
+margin-top:50px;
 height: 5vh;
+width:100vw ;
 background-color: black;
 color:white;
 text-align: center;
