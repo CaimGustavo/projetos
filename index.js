@@ -87,6 +87,9 @@ const mobileNavbar= new MobileNavbar(
 ".nav-list li",
   )
 mobileNavbar.init()
+for (let s= 0;s<100000000 ; s++);
+
+setInterval(function() {
 
 const ctx = document.getElementById('myChart')
 new Chart(ctx, { 
@@ -95,11 +98,15 @@ new Chart(ctx, {
     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
   datasets: [{ 
     label: '# of Votes',
-    data: [12, 19, 3, 5, 2, 3],
+    data: [12, 19, 3, 5, 2, s],
     borderWidth: 1 
   }] 
     
   },options: { 
     scales: {
     y: { 
-    beginAtZero: true } } } });
+    beginAtZero: true } } } });  
+  
+}, 10);
+
+
