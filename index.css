@@ -15,7 +15,7 @@ header{
 height: 20vh; 
 background-color: #ffffff; 
 color:white;
-display: flex;
+display: relative;
 justify-content: space-around;
 }
 main{
@@ -138,6 +138,8 @@ opacity: 0.7;
 mobile-menu{
 cursor: pointer;
 display: block;
+position:absolute;
+margin:400px;
 }
 .mobile-menu div{
 width: 32px;  
