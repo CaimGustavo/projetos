@@ -49,9 +49,12 @@ margin-left:80px;
 margin-bottom: 50px;
 }
 #pesquisar{
-width: 50vh;
+width: 40vh;
 border: .5px solid #00000086;
-height: 10vh;
+height: 5vh;
+}
+#btn_pes{
+height: 5vh;  
 }
 .redes,.forma{
   margin-top: 20px;
