@@ -142,7 +142,7 @@ display: block;
 .mobile-menu div{
 width: 32px;  
 height: 2px;
-background-color: white;
+background-color: black;
 margin:8px;
 }
 @keyframes navLinkFade{
