@@ -13,7 +13,7 @@ overflow-x:hidden;
 }
 header{
 height: 20vh; 
-background-color: black; 
+background-color: #ffffff; 
 color:white;
 display: flex;
 justify-content: space-around;
@@ -52,17 +52,18 @@ margin-left:80px;
 margin-bottom: 50px;
 }
 #area_pes{
-border: .5px solid #00000086;  
-  
+border: .9px solid #00000086;  
+position: relative;  
 }
 #pesquisar{
-width: 300px;
+width:330px;
 height: 5vh;
 resize: none;
 }
 .img_btn{
-width: 20px;
-
+width: 30px;
+position: absolute;
+transform: translateY(20px,20px);
 }
 .redes,.forma{
   margin-top: 20px;
@@ -70,7 +71,7 @@ width: 50px;
 margin:10px;  
 }
 #redes{
-margin-left:40px ; 
+margin-left:10px ; 
 transition: all 0.5s;
 
 }
