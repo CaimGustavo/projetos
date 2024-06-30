@@ -62,8 +62,7 @@ resize: none;
 }
 .img_btn{
 width: 15px;
-position: absolute;
-transform: translateY(20px,20px);
+margin:auto;
 }
 .redes,.forma{
   margin-top: 20px;
