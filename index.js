@@ -6,7 +6,7 @@ let cont=tmpatual-tmp
 let seg=(tmpatual-tmp)/1000
 
 }
-setInterval(contador, 10);
+setInterval(contador, 1000);
 let banco_de_dados=[]
 const face=document.querySelector("#face")
 const insta=document.querySelector("#insta")
