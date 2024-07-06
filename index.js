@@ -1,10 +1,10 @@
-const api="https://replit.com/@gustavomelechen/Apipromisse-1"
- fetch(api)
-.then(res=>res.json())
-.then(dados=>{
-console.log(dados)  
-  
-})
+const timer=document.querySelector(".time")
+const tmp=Date.now()
+const contador=()=>{
+const tmpatual=Date.now() 
+let cont=tmpatual-tmp
+
+}
 let banco_de_dados=[]
 const face=document.querySelector("#face")
 const insta=document.querySelector("#insta")
