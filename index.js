@@ -3,7 +3,7 @@ const tmp=Date.now()
 const contador=()=>{
 const tmpatual=Date.now() 
 let cont=tmpatual-tmp
-let seg=(tmpatual-tmp)/1000
+let seg=Math.flor((tmpatual-tmp)/1000)
 console.log(cont)
 
 }
