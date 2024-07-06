@@ -3,8 +3,10 @@ const tmp=Date.now()
 const contador=()=>{
 const tmpatual=Date.now() 
 let cont=tmpatual-tmp
+let seg=(tmpatual-tmp)/1000
 
 }
+setInterval(contador, 10);
 let banco_de_dados=[]
 const face=document.querySelector("#face")
 const insta=document.querySelector("#insta")
