@@ -4,6 +4,7 @@ const contador=()=>{
 const tmpatual=Date.now() 
 let cont=tmpatual-tmp
 let seg=(tmpatual-tmp)/1000
+console.log(cont)
 
 }
 setInterval(contador, 1000);
