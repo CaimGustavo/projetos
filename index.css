@@ -161,7 +161,7 @@ transform: translateX(0);
 @media (max-width: 800px){
 
 .mobile-menu{
-display: block;  
+display: none;  
   
 }
   
