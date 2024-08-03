@@ -174,8 +174,12 @@ height: 85vh;
 z-index:1;
   
 }
+h1,h2,h4{
+font: normal bolder 2vw arial sans-sarif;  
+  
+}
 p{
-font: normal bolder 5vw arial sans-sarif; 
+font: normal bolder 2vw arial sans-sarif; 
   
 }
   
