@@ -158,7 +158,7 @@ transform: translateX(0);
 }  
 }
 
-@media (max-width: 800px){
+@media (min-width: 800px){
 
 .mobile-menu{
 display: none;  
