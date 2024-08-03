@@ -44,6 +44,7 @@ color:green;
 #logo{
 width:160px;
 }
+/*esse codigo ta muito ruim ja é*/
 #menu{
 width: 30px;
 border: 3px solid #ffffff;
@@ -157,8 +158,11 @@ transform: translateX(0);
 }  
 }
 
-/*PC*/
-@media (max-width:1200px){
+@media (max-width: 800px){
+
+.mobile-menu{
+display: block;  
   
+}
   
 }
