@@ -162,11 +162,11 @@ transform: translateX(0);
 
 .mobile-menu{
 display: none;  
-  
+color:black; 
 }
 .nav-list{
 transform: translateX(100%);
-display: flex;
+display: block;
 text-decoration: none;
 list-style: none;
 position: absolute;
