@@ -157,12 +157,34 @@ opacity: 1;
 transform: translateX(0);
 }  
 }
-
+/*table*/
 @media (min-width: 800px){
 
 .mobile-menu{
 display: none;  
   
 }
+.nav-list{
+transform: translateX(100%);
+display: flex;
+text-decoration: none;
+list-style: none;
+position: absolute;
+right:0;
+width:60vw;
+height: 85vh;
+flex-direction: flex;
+align-items: center;
+justify-content:space-around;
+transition: transform 0.3s ease-in;
+z-index:1;
   
+}
+  
+}
+/*PC*/
+@media (min-width: 1024px){
+
+
+
 }
