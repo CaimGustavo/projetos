@@ -174,12 +174,15 @@ height: 85vh;
 z-index:1;
   
 }
+#logo{
+width: 20vw;
+}
 h1,h2,h3,h4{
 font: normal bolder 2vw arial sans-sarif;  
   
 }
 li{
-font: normal bolder 5vw arial sans-sarif; 
+font: normal bolder 3vw arial sans-sarif; 
   
 }
   
