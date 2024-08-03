@@ -166,17 +166,14 @@ display: none;
 .nav-list{
 transform: translateX(100%);
 display: block;
-color:; black;
+color:black;
 text-decoration: none;
 list-style: none;
 position: absolute;
-right:0;
-width:60vw;
+width:20vw;
 height: 85vh;
-flex-direction: flex;
 align-items: center;
 justify-content:space-around;
-transition: transform 0.3s ease-in;
 z-index:1;
   
 }
