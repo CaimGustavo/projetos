@@ -182,10 +182,14 @@ font: normal bolder 2vw arial sans-sarif;
   
 }
 li{
-font: normal bolder 3vw arial sans-sarif; 
+font: normal bolder 1,5vw arial sans-sarif; 
   
 }
-  
+.redes{
+width: 20vw;
+margin-top:2vw;
+margin:3vw;
+}  
 }
 /*PC*/
 @media (min-width: 1024px){
