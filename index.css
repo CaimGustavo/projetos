@@ -54,7 +54,8 @@ margin-bottom: 50px;
 }
 #area_pes{
 border: .9px solid #00000086;  
-position: relative;  
+position: relative;
+background-color:black;
 }
 #pesquisar{
 width:330px;
@@ -63,7 +64,6 @@ resize: none;
 background-color:black;
 }
 #pes_btn{
-width: 50px;
 background-color: black;
 
 }
