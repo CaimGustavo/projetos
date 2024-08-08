@@ -176,9 +176,9 @@ z-index:1;
 }
 
 .nav-list li{
-margin-left:0;
+transform: translateX(0);
 text-align:center ;
-opacity: 1;
+opacity: 1;}
 #logo{
 width: 20vw;
 }
@@ -187,7 +187,7 @@ font: normal bolder 2vw arial sans-sarif;
   
 }
 li{
-font: normal bolder 1,5vw arial sans-sarif; 
+font: normal bolder 1,8vw arial sans-sarif; 
   
 }
 .redes{
