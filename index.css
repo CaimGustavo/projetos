@@ -180,6 +180,7 @@ z-index:1;
   
 }
 
+
 .nav-list li{
 transform: translateX(0);
 text-align:center ;
@@ -192,7 +193,25 @@ font: normal bolder 3vw arial sans-sarif;
   
 }
 li{
-font: normal normal 3vw arial sans-sarif; 
+font: normal normal 3vw arial sans-sarif; }
+#area_pes{
+border: .9vw solid white;  
+position: relative;
+background-color:black;
+
+}
+#pesquisar{
+width:40vh;
+height: 5vh;
+resize: none;
+color:white;
+background-color:black;
+}
+#pes_btn{
+background-color: black;
+width: 4vw;
+color:white;
+}
   
 }
 .redes,.forma{
