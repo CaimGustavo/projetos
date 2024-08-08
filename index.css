@@ -60,10 +60,11 @@ position: relative;
 width:330px;
 height: 5vh;
 resize: none;
+background-color:black;
 }
 .img_btn{
 width: 15px;
-background-color:black;
+
 }
 .redes,.forma{
   margin-top: 20px;
