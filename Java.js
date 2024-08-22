@@ -12,7 +12,7 @@ const hora=seg/3600
 const minuto=0
 const segundo=0
 const form=`${hora}:${minuto}:${segundo}`
-  return hora
+  return form
 }
 
 setInterval(contador, 1000);
