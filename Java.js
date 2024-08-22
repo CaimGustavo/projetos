@@ -9,8 +9,9 @@ timer.innerHTML=seg
 }
 const converter=(seg){
 const hora=seg/3600
-const minuto=0
-const segundo=0
+let resto=seg%3600
+const minuto=Math.floor(resto/60)
+const segundo=Math.floor(resto%60)
 const form=`${hora<10?"0"+hora:hora}:${minuto<10?"0"+minuto:minuto}:${segundo<10?"0"+segundo:segundo}`
   return form
 }
