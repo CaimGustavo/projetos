@@ -7,6 +7,12 @@ let seg=Math.floor((tmpatual-tmp)/1000)
 timer.innerHTML=seg
 
 }
+const converter=(seg){
+const hora=seg/3600
+  
+  return Math.floor(seg)
+}
+
 setInterval(contador, 1000);
 let banco_de_dados=[]
 const face=document.querySelector("#face")
