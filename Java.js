@@ -11,7 +11,7 @@ const converter=(seg){
 const hora=seg/3600
 const minuto=0
 const segundo=0
-const form=`${hora<10?"0"+hora:hora}:${minuto<10?"0"+hora:hora}:${segundo<10?"0"+hora:hora}`
+const form=`${hora<10?"0"+hora:hora}:${minuto<10?"0"+minuto:minuto}:${segundo<10?"0"+segundo:segundo}`
   return form
 }
 
