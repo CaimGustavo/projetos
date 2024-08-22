@@ -9,8 +9,10 @@ timer.innerHTML=seg
 }
 const converter=(seg){
 const hora=seg/3600
-  
-  return Math.floor(seg)
+const minuto=0
+const segundo=0
+const form=`${hora}:${minuto}:${segundo}`
+  return hora
 }
 
 setInterval(contador, 1000);
