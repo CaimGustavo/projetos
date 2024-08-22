@@ -4,7 +4,7 @@ const contador=()=>{
 const tmpatual=Date.now() 
 let cont=tmpatual-tmp
 let seg=Math.floor((tmpatual-tmp)/1000)
-timer.innerHTML=seg
+timer.innerHTML=converter(seg)
 
 }
 const converter=(seg){
