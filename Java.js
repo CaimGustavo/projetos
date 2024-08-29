@@ -1,22 +1,4 @@
-const timer=document.querySelector(".time")
-const tmp=Date.now()
-const contador=()=>{
-const tmpatual=Date.now() 
-let cont=tmpatual-tmp
-let seg=Math.floor((tmpatual-tmp)/1000)
-timer.innerHTML=converter(seg)
 
-}
-const converter=(seg){
-const hora=seg/3600
-let resto=seg%3600
-const minuto=Math.floor(resto/60)
-const segundo=Math.floor(resto%60)
-const form=`${hora<10?"0"+hora:hora}:${minuto<10?"0"+minuto:minuto}:${segundo<10?"0"+segundo:segundo}`
-  return form
-}
-
-setInterval(contador, 1000);
 let banco_de_dados=[]
 const face=document.querySelector("#face")
 const insta=document.querySelector("#insta")
@@ -121,3 +103,22 @@ new Chart(ctx, {
   
 
 
+const timer=document.querySelector(".time")
+const tmp=Date.now()
+const contador=()=>{
+const tmpatual=Date.now() 
+let cont=tmpatual-tmp
+let seg=Math.floor((tmpatual-tmp)/1000)
+timer.innerHTML=converter(seg)
+
+}
+const converter=(seg){
+const hora=seg/3600
+let resto=seg%3600
+const minuto=Math.floor(resto/60)
+const segundo=Math.floor(resto%60)
+const form=`${hora<10?"0"+hora:hora}:${minuto<10?"0"+minuto:minuto}:${segundo<10?"0"+segundo:segundo}`
+  return form
+}
+
+setInterval(contador, 1000);
