@@ -98,7 +98,7 @@ const ctx = document.getElementById('myChart')
 new Chart(ctx, { 
   type: 'bar', 
   data: { 
-    labels: ['Soja', 'feijão', 'milho', 'arroz', 'uva', 'batata'],
+    labels: ['kotlin', 'C#', 'javascript', 'python', 'C++', 'C'],
   datasets: [{ 
     label: '# of Votes',
     data: [12, 19, 3, 5, 2, 3],
